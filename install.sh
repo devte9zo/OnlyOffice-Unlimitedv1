@@ -4,7 +4,7 @@ FILE=OO_PubKey
 if test -f "$FILE"; then
   echo Patch has already been applied. Starting DocumentServer...
 else
-  apt-get update && apt-get install -y python3.7-dev 
+  apt-get update && apt-get install -y python3.7
     wget https://bootstrap.pypa.io/get-pip.py
     python3.7 get-pip.py
     pip install pycrypto
